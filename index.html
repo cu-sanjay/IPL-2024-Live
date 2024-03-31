@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Cricket Stream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Live Cricket Stream</h1>
+  <div class="stream-container">
+    <select id="language-select">
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_odia_ipl_s2_m2310324/master.m3u8">Odia</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_hindi_ipl_s2_m2310324/master.m3u8">Hindi</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_english_ipl_s2_m2310324/master.m3u8">English</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_punjabi_ipl_s2_m2310324/master.m3u8">Punjabi</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_bhojpuri_ipl_s2_m2310324/master.m3u8">Bhojpuri</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_telagu_ipl_s2_m2310324/master.m3u8">Telugu</option>
+      <option value="https://prod-sports-south-gm.jiocinema.com/hls/live/2109517/hd_akamai_androidmob_avc_tamil_ipl_s2_m2310324/master.m3u8">Tamil</option>
+    </select>
+    <div class="button-container">
+      <button id="play-button">Play</button>
+      <button id="fullscreen-button">Full Screen</button>
+    </div>
+    <video id="stream-video" controls autoplay></video>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
