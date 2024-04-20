@@ -3,37 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IPL 2024 Live Streaming</title>
   <link rel="icon" type="image/svg+xml" href="https://wallpaperaccess.in/public/uploads/preview/tata-ipl-2022-logo-png-images-z.png">
   <link rel="stylesheet" href="styles.css">
+  <title>Live IPL 2024 Streaming</title>
 </head>
 <body>
-  <h1>Live Cricket Stream</h1>
-  <div class="background-container">
-    <div class="background-image"></div>
-  </div>
-  <div class="stream-container">
-    <select id="language-select">
-      <option value="https://prod-ent-live-gm.jiocinema.com/hls/live/2100299/hd_akamai_androidmob_avc_eng_ipl_s1_m1010424/master.m3u8">English</option>
-      <option value="https://prod-ent-live-gm.jiocinema.com/hls/live/2100323/hd_akamai_androidmob_avc_hin_ipl_s1_m1010424/master.m3u8">Hindi</option>
-      <option value="http://prod-sports-north-cf.jiocinema.com/hls/live/2109750/hd_akamai_androidmob_avc_guj_ipl_s1_m1010424/master.m3u8">Gujarati</option>
-      <option value="http://prod-sports-south.jiocinema.com/hls/live/2109724/hd_akamai_androidmob_avc_kan_ipl_s1_m1010424/master.m3u8">Kannada</option>
-      <option value="http://prod-sports-north-cf.jiocinema.com/hls/live/2109768/hd_akamai_androidmob_avc_mar_ipl_s1_m1010424/master.m3u8">Marathi</option>
-      <option value="http://prod-sports-south-cf.jiocinema.com/hls/live/2109706/hd_akamai_androidmob_avc_mal_ipl_s1_m1010424/master.m3u8">Malayalam</option>
-      <option value="http://prod-sports-north-fa.jiocinema.com/hls/live/2109756/hd_akamai_androidmob_avc_pun_ipl_s1_m1010424/master.m3u8">Punjabi</option>
-      <option value="http://prod-sports-north-gm.jiocinema.com/hls/live/2109762/hd_akamai_androidmob_avc_bhoj_ipl_s1_m1010424/master.m3u8">Bhojpuri</option>
-      <option value="http://prod-sports-north-gm.jiocinema.com/hls/live/2109774/hd_akamai_androidmob_avc_ben_ipl_s1_m1010424/master.m3u8">Bengali</option>
-      <option value="http://prod-sports-south.jiocinema.com/hls/live/2109712/hd_akamai_androidmob_avc_tam_ipl_s1_m1010424/master.m3u8">Tamil</option>
-      <option value="http://prod-sports-south-fa.jiocinema.com/hls/live/2109718/hd_akamai_androidmob_avc_tel_ipl_s1_m1010424/mmaster.m3u8">Telugu</option>
-      <option value="http://prod-sports-south-cf.jiocinema.com/hls/live/2109700/hd_akamai_androidmob_avc_odia_ipl_s1_m1010424/master.m3u8">Odia</option>
-    </select>
-    <div class="button-container">
-      <button id="play-button">Play</button>
-      <button id="fullscreen-button">Full Screen</button>
+  <div class="container">
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>Last</h2>
+          <div style="display: flex; align-items: center;">
+            <img src="/logos/LSG.png" alt="Team 1" style="width: 100px; height: auto;">
+            <h3 style="margin: 0;">vs</h3>
+            <img src="/logos/CSK.png" alt="Team 2" style="width: 100px; height: auto;">
+        </div>                          
+          <p><b>LSG WON BY 8 WICKETS</b><br>Ekana Stadium, Lucknow</p>
+          <a href="#">Highlights</a>
+        </div>
+      </div>
     </div>
-    <video id="stream-video" controls autoplay></video>
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>Live</h2>
+          <div style="display: flex; align-items: center;">
+            <img src="/logos/DC.png" alt="Team 1" style="width: 100px; height: auto;">
+            <h3 style="margin: 0;">vs</h3>
+            <img src="/logos/SRH.png" alt="Team 2" style="width: 100px; height: auto;">
+        </div> 
+          <p><b>20 APRIL 2024</b><br>Arun Jaitley Stadium, Delhi</p>
+          <a href="live/index.html">Watch Live</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>Next</h2>
+          <div style="display: flex; align-items: center;">
+            <img src="/logos/KKR.png" alt="Team 1" style="width: 100px; height: auto;">
+            <h3 style="margin: 0;">vs</h3>
+            <img src="/logos/RCB.png" alt="Team 2" style="width: 100px; height: auto;">
+        </div>  
+        <p><b>21 APRIL 2024</b><br>Eden Gardens, Kolkata</p>
+          <a href="#">Stay Tuned</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
   <script src="script.js"></script>
 </body>
 </html>
