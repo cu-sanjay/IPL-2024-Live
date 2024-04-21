@@ -140,7 +140,7 @@
     <div class="button-container">
       <button id="play-button">Play</button>
       <button id="fullscreen-button">Full Screen</button>
-	  <button id="open-vlc">Open With VLC</button>
+      <button id="open-vlc">Open With VLC</button>
     </div>
     <video id="stream-video" controls autoplay></video>
   </div>
@@ -161,7 +161,7 @@
       const videoElement = document.getElementById("stream-video");
       const playButton = document.getElementById("play-button");
       const fullscreenButton = document.getElementById("fullscreen-button");
-	  const vlcButton = document.getElementById("open-vlc");
+      const vlcButton = document.getElementById("open-vlc");
 
       let isPlaying = false;
       let currentStreamUrl = languageSelect.value;
@@ -201,9 +201,9 @@
         }
       });
 	  
-	  vlcButton.addEventListener("click", () => {
+      vlcButton.addEventListener("click", () => {
         var vlcUrl = 'vlc://'+ languageSelect.value;
-		window.location.href = vlcUrl;
+	  window.location.href = vlcUrl;
       });
 
       languageSelect.addEventListener("change", () => {
