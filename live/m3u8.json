@@ -2,11 +2,11 @@
   "streams": [
     {
       "language": "English",
-      "url": "https://prod-ent-live-gm.jiocinema.com/hls/live/2100299/hd_akamai_androidmob_avc_eng_ipl_s1_m1260524/master.m3u8"
+      "url": "https://live-hls-abr-cdn.livepush.io/live/bigbuckbunnyclip/index.m3u8"
     },
     {
       "language": "Hindi",
-      "url": "https://prod-ent-live-gm.jiocinema.com/hls/live/2100323/hd_akamai_androidmob_avc_hin_ipl_s1_m1260524/master.m3u8"
+      "url": "https://live-hls-abr-cdn.livepush.io/live/bigbuckbunnyclip/index.m3u8"
     },
     {
       "language": "Gujarati",
